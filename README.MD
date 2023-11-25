@@ -1,58 +1,58 @@
-# 一个简易的 Android 网页浏览器
+# A simple Android web browser
 
 ![LOGO](https://user-images.githubusercontent.com/16880885/43814276-1c7b3584-9afc-11e8-97c8-1fb71b683930.png)
 
-瞎倒腾着玩的。仅仅是对 WebView 进行了一个简易的封装……有多简易呢？简易到整个工程文件只有一个 Activity，实际的代码不足 400 行~
+Just playing around. It's just a simple encapsulation of WebView...how simple is it? It’s so simple that there is only one Activity in the entire project file, and the actual code is less than 400 lines~
 
-里边的代码都附上了详细的注释，初学者感兴趣可以参考一下。
+The code inside is attached with detailed comments. Beginners can refer to it if they are interested.
 
-无图无真相
+No picture, no truth
 ----
 
-下面来看看几张实测图……
+Let’s take a look at some actual measurement pictures...
 
-| 逛B站   | 上淘宝    | 看知乎 |
+| Visit Bilibili | Go to Taobao | Read Zhihu |
 | ----------- | ----------- | ----------- |
-| ![逛B站](https://user-images.githubusercontent.com/16880885/44021643-e45d4992-9f17-11e8-8a14-ae431a90b4b4.png) | ![上淘宝](https://user-images.githubusercontent.com/16880885/44021676-f8189b62-9f17-11e8-8ecf-bb91cc48647f.png) | ![看知乎](https://user-images.githubusercontent.com/16880885/44021699-0a6cf768-9f18-11e8-8be6-eca3574f01b6.png) |
+| ![Visit B station](https://user-images.githubusercontent.com/16880885/44021643-e45d4992-9f17-11e8-8a14-ae431a90b4b4.png) | ![Go to Taobao](https://user-images .githubuserContent.com/16880885/44021676 -F8189B62-9F17-1CF-8ECF-BB91CC48647F.Png) |! [Look] (https://user-images.githubusercontent.com/1 6880885/44021699-0A6CF768-9F18-11E8 -8be6-eca3574f01b6.png) |
 
-哇塞！居然真的可以用来看网页唉！是不是很牛逼？
+Wow! It can actually be used to read web pages! Isn’t it awesome?
 
-目前已有的功能
+Functions currently available
 ----
-- 浏览网页
-- 前进后退，返回首页
-- 没了……
+- Visit the website
+- Forward, backward, return to homepage
+- Gone……
 
-目前存在的问题
+currently existing problems
 ----
-- 播放视频无法全屏
-- 无法进行文件上传
-- 以及其它 WebView 自带的坑
+- Video cannot be played in full screen
+- Unable to upload file
+- and other pitfalls that come with WebView
 
 TODO
 ----
-- 多标签
-- 功能设置
-- 历史记录
-- 隐身模式
-- 收藏夹
-- 插件
-- 云同步
-- 广告过滤
-- 夜间模式
-- 二维码扫描
-- 以上纯属瞎编，别指望真会实现……
+- Multiple tabs
+- Function settings
+- history record
+- Stealth mode
+- Favorites
+- Plugins
+- Cloud sync
+- Ad filtering
+- Night mode
+- QR code scanning
+- The above is pure fabrication, don’t expect it to come true...
 
-更新日志
+Change log
 ----
 #### 2018/8/13 v0.2.0
-- 经过一年的学习，技术有点长进了。遂把之前的代码改得稍微规范了些
-- 将底部导航栏进行了美容
-- 地址栏支持智能识别网址与搜索词（好啦，就是加个正则表达式而已~）
-- 换了个有逼格的 LOGO
+- After a year of study, my skills have improved a bit. So I changed the previous code to be a little more standardized.
+- Improved the bottom navigation bar
+- The address bar supports intelligent identification of URLs and search terms (Okay, just add a regular expression~)
+- Changed to a more stylish LOGO
 
 #### 2017/5/24 v0.1.0
-- 刚开始学安卓开发，即兴写了这个练练手，代码凌乱的一批
+- I just started learning Android development and I improvised this to practice. The code is messy.
 
 # License
 
